@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id = "title">Survey Form</h1>
+    <p id = "description">This is a survey form.</p>
+    <form id = "survey-form">
+      <label id = "name-label" >Enter your name:
+        <input id = "name" type = "text" required placeholder = "xxxxxx xxxxxx"></input>
+      </label>
+      <label id = "email-label" >Enter your email:
+        <input type = "email" id = "email" required placeholder = "xxxxxx@xxxxx.xxx"></input>
+      </label>
+      <label id = "number-label" >Interest on coding:
+        <input type = "number" id = "number" min="0" max="10" placeholder = "0-10"></input>
+      </label>
+      <label>You prefer:
+        <select id = "dropdown" >
+          <option value ="web">Web applications</option>
+          <option value="mobile">Mobile applications</option>
+        </select>
+      </label>
+      <label> You like coding ? :
+        <input type = "radio" name = "radio" value="yes" class="inline">Yes</input>
+        <input type = "radio" name = "radio" value="no" class="inline">No</input>
+      </label>
+      <label> How do you got into coding ? :
+        <label><input type = "checkbox" value = "good-scope" class="inline"> Saw good scopes </input></label>
+        <label><input type = "checkbox" value = "recommended" class = "inline"> Someone recommended </input></label>
+        <label><input type = "checkbox" value = "fun" class = "inline"> Had fun </input></label>
+      </label>
+      <label>Write something about coding:  
+      <textarea></textarea>
+      </label>
+      <input type="submit" id="submit" />
+    </form>
+    
+  </body>
+</html>
