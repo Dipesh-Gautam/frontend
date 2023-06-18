@@ -1,0 +1,16 @@
+button{
+    border-radius: 13px;
+    color: rgb(61, 83, 83);
+    padding: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 15px 30px;
+    margin: 10px;
+}
+h1{
+    /* text-align: center; */
+    color:rgb(231, 148, 148)
+}
+div{
+    text-align: center;
+}
